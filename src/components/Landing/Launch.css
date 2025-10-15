@@ -1,0 +1,72 @@
+/* General Styles */
+.body-container {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+   /* Landing Page */
+   .landing-container {
+    
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   }
+   h1 {
+    color: #333;
+   }
+   .buttons-container {
+    margin-top: 20px;
+   }
+   .app-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 20px;
+   }
+   .prita {
+    background: #04868a !important;
+    color: white;
+   }
+   .prita:hover {
+    background: #0056b3 !important ;
+   }
+   .pega {
+    background: #28a745 !important;
+    color: white;
+   }
+   .pega:hover {
+    background: #1e7e34 !important;
+   }
+   /* App Page */
+   .app-page {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   }
+  
+   .back-button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+   }
+   .back-button:hover {
+    background: #555;
+   }

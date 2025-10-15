@@ -1,0 +1,106 @@
+/* Container styling */
+.container-rule-mapping {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   }
+   /* Title */
+   h2 {
+    margin-bottom: 20px;
+    color: #333;
+   }
+   /* Dropdown container */
+   .dropdown-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+   }
+   /* Label styling */
+   label {
+    font-weight: bold;
+    margin-top: 10px;
+   }
+   /* Select dropdown styling */
+   select {
+    width: 80%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+   }
+   /* Disabled select dropdown */
+   select:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+   }
+   /* Button styling */
+   .add-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+   }
+   .add-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+   }
+   .add-btn:hover:not(:disabled) {
+    background-color: #218838;
+   }
+   /* Table styling */
+   .styled-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: white;
+   }
+   .styled-table th, .styled-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+   }
+   .styled-table th {
+    background: #007bff;
+    color: white;
+   }
+   .styled-table tr:nth-child(even) {
+    background: #f2f2f2;
+   }
+   /* No data row */
+   .no-data {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+   }
+   .delete-icon {
+    font-size: 18px;
+    color: #dc3545;
+    cursor: pointer;
+    transition: color 0.3s ease;
+   }
+   .delete-icon:hover {
+    color: #c82333;
+   }
+   .run-btn {
+    padding: 5px 10px;
+    margin: 0 2px 0 15px;
+    background: #2318b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+   }
+   .run-btn:hover {
+    background: #586280;
+   }
